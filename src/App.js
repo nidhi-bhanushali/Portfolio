@@ -5,6 +5,7 @@ import Navbar from "./layout/Navbar";
 import Home from "./components/Home"
 import About from "./components/About"
 import Contact from "./components/Contact"
+import Footer from "./layout/Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route exact path = '/contact' component = {Contact} />
           </Fragment>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
