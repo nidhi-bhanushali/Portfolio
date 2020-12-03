@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <div className = 'navbar bg-primary'>
+        <div className = 'navbar text-primary'>
             <ul>
                 <Link to = '/'>Nidhi Bhanushali</Link>
                 <Link to = '/home'>Home</Link>

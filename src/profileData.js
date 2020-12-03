@@ -1,5 +1,4 @@
 export const Data = {
-    img:"../../public/images/IMG-20191123-WA0121.jpg",
     alt:"photo",
     name:"Nidhi Bhanushali",
     college:"KJSIEIT-2022 , Mumbai University",
