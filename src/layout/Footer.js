@@ -5,6 +5,7 @@ const Footer = () => {
         <div className ="all-center">
             <p>LinkedIn</p>
             <p>Github</p>
+            <p>Instagram</p>
         </div>
     )
 }
