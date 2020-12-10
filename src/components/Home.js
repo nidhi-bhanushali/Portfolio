@@ -2,6 +2,7 @@ import React from 'react'
 import {Data} from '../profileData'
 import image from '../images/profile.jpeg'
 import Bio from './Bio'
+import Skills from './Skills'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             </div>
         </div>
         <Bio/>
+        <Skills/>
         </div>
     )
 }

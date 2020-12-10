@@ -7,7 +7,8 @@ export const Data = {
             about learning new web technologies, developing
             good looking , user friendly and efficient web
             applications which help solve daily life problems.I like watching movies 
-            and reading books in my free time. Have a bug for travelling in the mountains.`
+            and reading books in my free time. Have a bug for travelling in the mountains.A 
+            big foodie and love my sleep a little too much.`
 }
 
 export const ProjectList = [
@@ -55,3 +56,6 @@ export const BlogList = [
         name:"Lorem, ipsum dolor sit amet consectetur!"
     }
 ]
+
+export const SkillList = ["HTML" , "CSS" , "JavaScript" , "React" , "MySQL" , "REST API",
+                        "Python" , "C" , "Vue"]
