@@ -4,8 +4,9 @@ import {BrowserRouter as Router , Route , Switch } from 'react-router-dom'
 import Navbar from "./layout/Navbar";
 import Home from "./components/Home"
 import About from "./components/About"
-import Contact from "./components/Contact"
+import Blog from "./components/Blog"
 import Footer from "./layout/Footer";
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -16,9 +17,9 @@ function App() {
         <Switch>
           <Fragment>
             <Route exact path = '/' component = {Home} />
-            <Route exact path = '/home' component = {Home} />
+            <Route exact path = '/project' component = {Projects} />
             <Route exact path = '/about' component = {About} />
-            <Route exact path = '/contact' component = {Contact} />
+            <Route exact path = '/blog' component = {Blog} />
           </Fragment>
         </Switch>
         <Footer/>
