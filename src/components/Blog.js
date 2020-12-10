@@ -3,8 +3,8 @@ import {BlogList} from '../profileData';
 
 const Blog = () => {
     return (
-        <div className = "container">
-        <h3>My Blogs</h3>
+        <div className = "container mt">
+        <h3 className="all-center mb">My Blogs</h3>
         <div className = "card">
         {BlogList.map(blog => {
             return (

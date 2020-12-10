@@ -118,7 +118,7 @@ img {
 /* Cards */
 .card {
   padding: 1rem;
-  border: #ccc 1px dotted;
+  border: var(--primary-color) 1px dotted;
   margin: 0.7rem 0;
 }
 
@@ -395,6 +395,15 @@ table th {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
+}
+
+#footer{
+  height: 110px;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  font-size: 30px;
 }
 
 /* Mobile Styles */
