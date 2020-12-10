@@ -1,6 +1,7 @@
 import React from 'react'
 import {Data} from '../profileData'
 import image from '../images/profile.jpeg'
+import Bio from './Bio'
 
 const Home = () => {
     return (
@@ -10,10 +11,12 @@ const Home = () => {
             <div>
             <h4 className = "large text-primary my-2">{Data.name}</h4>
             <p className = "text-light">{Data.desc}</p>
+            <br>
+            </br>
+           
             </div>
         </div>
-        
-        
+        <Bio/>
         </div>
     )
 }

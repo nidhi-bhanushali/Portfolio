@@ -3,10 +3,11 @@ export const Data = {
     name:"Nidhi Bhanushali",
     college:"KJSIEIT-2022 , Mumbai University",
     desc:"Learning various web technologies and applying them to make smaller projects. Currently Interning at Travographer",
-    bio : `A Budding MERN Stack Web Developer enthusiastic
+    bio : `A Budding MERN Stack Developer enthusiastic
             about learning new web technologies, developing
             good looking , user friendly and efficient web
-            applications which help solve daily life problems.`
+            applications which help solve daily life problems.I like watching movies 
+            and reading books in my free time. Have a bug for travelling in the mountains.`
 }
 
 export const ProjectList = [
